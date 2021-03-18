@@ -11,7 +11,7 @@ class LabelTextStyle {
   }
 }
 
-class SortNumberTextStyle {
+class ScoreNumberTextStyle {
   static TextStyle headline4(BuildContext context) {
     return Theme.of(context).textTheme.headline4.copyWith(
         fontWeight: FontWeight.bold, fontSize: 20.0, color: Colors.black);
